@@ -403,6 +403,12 @@ html{
     margin-right: 16px;
     font-weight: bold;
 }
-.icon-beng{
-    
+input.icon-beng{
+    width: 450px;
+    padding: 5px;
+    margin: 15px;
+    height: 25px;
+    background-image: url('img/ic_flight_land_black_24dp_1x.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
