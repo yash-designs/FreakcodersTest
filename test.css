@@ -1,0 +1,408 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Aug-2017, 15:32:22
+    Author     : YASH
+*/
+html{
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    body{
+        margin: 0 auto;
+    }
+    header{
+        background-color: #0e4377;
+        color: white;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+        z-index: 10;
+    }
+    .float-right{
+        float: right!important;
+    }
+    .float-left{
+        float: left!important;
+    }
+    .cssLink{
+        text-decoration: none;
+        color: white;
+        opacity: 1;
+    }
+    .nav{
+        color: white;
+        float: right!important;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        line-height: 64px;
+        vertical-align: middle;
+    }
+    .nav .nav-menu{
+        display: block;
+        padding-right: 20px;
+    }
+    .cssLink:hover{
+        opacity: 0.6;
+    }
+    .heading1{
+        font-size: 36px;
+        color: #0e4377;
+    }
+    .heading2{
+        font-size: 24px;
+    }
+    .font18{
+        font-size: 18px;
+    }
+    
+    .font16{
+        font-size: 16px;
+    }
+    .font14{
+        font-size: 14px;
+    }
+    .font12{
+        font-size: 12px;
+    }
+    .fa{
+        font-size: inherit;
+        padding-left: 8px;
+    }
+    .center{
+        text-align: center!important;
+    }
+    .div-search{
+        height: 460px;
+        background-image: url(img/bluesky.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow:inset 0px -4px 8px rgba(0,0,0,.20);
+        z-index: 8;
+        background-color: #82c0ee;
+    }
+    .div-insp{
+        padding-top: 84px;
+        padding-bottom: 32px;
+        position: relative;
+    }
+    .pad-bot-16{
+        padding-bottom: 16px;
+    }
+    .underline{
+        border-bottom: 4px solid #0e4377;
+        width: 60px;
+        padding-top: 24px;
+        margin: 0 auto;
+    }
+    .c-underline{
+        border-bottom: 4px solid;
+        width: 40px;
+        position: absolute; 
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto;
+        bottom: 0;
+    }
+    .div-popular{
+        padding-top: 84px;
+        background-color: #fafafa;
+        padding-bottom: 32px;
+    }
+    .card{
+        width: 280px;margin: 16px;
+        height: auto;
+        position: relative;
+        margin-bottom: 24px; 
+        padding-bottom: 24px; 
+        background-color: white;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.20);
+        border-radius: 2px;
+        background-image: url(img/dubai.jpg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+    }
+    .img-card{
+        width: 240px;
+        height: 240px;  
+        position: relative;
+        background-color: white;
+        border-radius: 2px;
+    }
+    .img-blur1:after {
+        background-image: url(img/santorini.jpg);
+        content: '';
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        bottom: -16px;
+        height: 48px;
+        z-index: -1;
+        background-size: 105.26316% 10000%;
+        background-position: bottom;
+        -webkit-filter: blur(15px);
+        filter: blur(15px);
+    }
+    .img-blur2:after {
+        background-image: url(img/venice.jpg);
+        content: '';
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        bottom: -16px;
+        height: 48px;
+        z-index: -1;
+        background-size: 105.26316% 10000%;
+        background-position: bottom;
+        -webkit-filter: blur(15px);
+        filter: blur(15px);
+    }
+    .img-blur3:after {
+        background-image: url(img/lisbon.jpg);
+        content: '';
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        bottom: -16px;
+        height: 48px;
+        z-index: -1;
+        background-size: 105.26316% 10000%;
+        background-position: bottom;
+        -webkit-filter: blur(15px);
+        filter: blur(15px);
+    }
+    .img-card-focused{
+        width: 280px;
+        height: 280px; 
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        position: relative;
+        margin-bottom: 24px; 
+        background-color: white;
+        border-radius: 2px;
+    }
+    .div-center{
+        margin: 0 auto;
+    }
+    .row-cards{
+        background-color: #fafafa;
+    }
+    .row-img-cards{
+        background-color: white;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      vertical-align: center;
+    margin-bottom: 16px;
+    }
+    .row-cards{
+        background-color: #fafafa;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        padding: 1.5%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .card-header{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;
+        border-bottom: 2px solid #eee;
+        font-weight: 600;
+    }
+    .dark-blue{
+        color:#024189;
+    }
+    .light-red{
+        color:#f9354a;
+    }
+    .gold{
+        color:#eace91;
+    }
+    .bg-yelow{
+        background-color: #ffc20e;
+    }
+    .ul-flights{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;                                                                             
+    }
+    .ul-flights .cntry{
+        display: block;
+        padding: 14px 24px;
+    }
+    .txt-bold{
+        font-weight: 600;
+    }
+    .btn-primary{
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    }
+    .img-santorini{
+        background-image: url(img/santorini.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 10;
+    }
+    .img-venice{
+        background-image: url(img/venice.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 10;
+    }
+    .img-lisbon{
+        background-image: url(img/lisbon.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 10;
+    }
+    .bluescale{
+        background: linear-gradient(to top, rgba(0,58,132,.6) 0%, rgba(0,58,132,0) 100%);
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .myfooter{
+        background-color: #fff;
+        height: 142px;
+        padding-left: 80px;
+        display: flex;
+        justify-content: left;
+        align-items: center;    
+    }
+    .brand-name{
+        color: #8c8c8c;
+        width: auto;
+        padding-right: 134px;
+    }
+    .img-content{
+        bottom: 0;
+        float: center;
+        position: absolute;
+        color: white;
+        z-index: 8;
+        padding: 12px 12px 16px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+        padding-right: 32px;
+    }
+    .copyright{
+        color:#757575;
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 32px;
+        padding-top: 20px;
+    }
+    .color-grey{
+        color: #8c8c8c;
+        line-height: 20px;
+    }
+    .icons{
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, transparent) , to(rgba(250, 250, 250, 0.1)));
+    }    
+        .container{
+            width: 92%;
+			margin: 0 auto;
+            padding-top: 32px;
+		}
+        ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+            font-size: 20px
+		}
+		ul.tabs li{
+			background: none;
+            color: #fff;
+            font-weight: bold;
+			display: inline-block;
+			padding: 10px 15px;
+            margin-right: 32px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			border-bottom: 3px solid #024189;
+			color: #fff;
+		}
+
+		.tab-content{
+			display: none;
+			padding: 15px;
+            color: white;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+.round-btn{
+    font-size: 14px;
+    padding: 4px 20px;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    background-color: transparent;
+    color: white;
+    margin-right: 16px;
+}
+.round-btn:focus{
+    background-color: #fff;
+    color: #024189;
+    outline: none;
+}
+.way{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.inp{
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border:none;
+    padding: 12px 8px;
+    color: #757575;
+    margin-right: 8px;
+    color: #212121;
+    font-weight: bold;
+}
+.choose:focus{
+    outline: none;
+}
+.choose{
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border:none;
+    padding: 12px 8px;
+    color: #212121;
+    margin-right: 16px;
+    font-weight: bold;
+}
+.icon-beng{
+    
+}

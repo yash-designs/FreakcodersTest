@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="test.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/brandLogo.png"/>
+        <div  class="nav">
+            <a class="nav-menu cssLink float-right" href="#">My Account<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <a class="nav-menu cssLink float-right" href="#">Support</a>
+        </div>
+    </header>
+    <div class="div-search">
+        <div>
+            <div class="container center">
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-1">FLIGHT</li>
+                    <li class="tab-link" data-tab="tab-2">HOTEL</li>
+                    <li class="tab-link" data-tab="tab-3">HOLIDAYS</li>
+                </ul>
+
+                <div id="tab-1" class="tab-content current">
+                    <div class="way float-left">
+                        <button type="button" class="round-btn float-left">One Way</button>
+                        <button type="button" class="round-btn float-left">Round Trip</button>
+                        <button type="button" class="round-btn float-left">Multicity</button>
+                    </div><br/>
+                    <div class="frm">
+                        <input type="text" placeholder="From" class="inp float-left icon-beng" value="Bengaluru"/>
+                        <input type="text" placeholder="Destination" class="inp float-left icon-kolk" value="Kolkata"/>
+                        <input type="text" placeholder="On" class="inp float-left icon-ongo" Value="18.11.2017"/>
+                        <input type="text" placeholder="Back On" class="inp float-left icon-back" value="20.11.2017"/>
+                         <select name="cars" class="choose float-left">
+                            <option value="volvo">1 Traveller, Economyy</option>
+                            <option value="saab">2 Traveller(s), Economy</option>
+                            <option value="fiat">Single Lady, Economy</option>
+                          </select>
+                          <button type="button" class="btn-primary bg-yelow float-left">SEARCH</button>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-content">
+                     Hotel Search 
+                </div>
+                <div id="tab-3" class="tab-content">
+                    Holidays Search
+                </div>
+            </div><!-- container -->
+        </div>
+    </div>
+    <div class="center div-insp">
+        <div class="heading1 pad-bot-16">Are You Looking For Inspiration</div>
+        <div class="font18">Finding cheap flights has never been easier</div>
+        <div class="underline"></div>
+        <div class="row-img-cards dark-blue">
+            <div class="img-card img-santorini float-left">
+                <span class="bluescale"></span>
+                <div class="img-content">
+                    <span class="heading2 img-city" style="text-shadow: 0px 0px 2px #000;"><b>Santorini</b></span><br/>
+                    <span class="font16 img-desc" style="text-shadow: 0px 0px 2px #000;">Direct flight with <b>Air France</b> from <b>79$</b></span>
+                </div>
+                <div class="img-blur1"></div>
+            </div>
+            <div class="img-card-focused img-venice float-left">
+                <span class="bluescale"></span>
+                <div class="img-content">
+                    <span class="heading2 img-city" style="text-shadow: 0px 0px 2px #000;"><b>Venice</b></span><br/>
+                    <span class="font16 img-desc" style="text-shadow: 0px 0px 2px #000;">Direct flight with <b>Emirates</b> from <b>229$</b></span>
+                </div>
+                <div class="img-blur2"></div>
+            </div>
+            <div class="img-card img-lisbon float-left">
+                <span class="bluescale"></span>
+                <div class="img-content">
+                    <span class="heading2 img-city" style="text-shadow: 0px 0px 2px #000;"><b>Lisbon</b></span><br/>
+                    <span class="font16 img-desc" style="text-shadow: 0px 0px 2px #000;">Direct flight with <b>KLM</b> from <b>139$</b></span>
+                </div>
+                <div class="img-blur3"></div>
+            </div>
+        </div>
+        <button type="button" class="btn-primary bg-yelow">All Exclusive Offers</button>
+    </div>
+    
+    <div class="center div-popular">
+        <div class="heading1 pad-bot-16">Popular Destinations</div>
+        <div class="font18">Your ideal trip is simply a click away!</div>
+        <div class="underline"></div>
+        <div class="row-cards  dark-blue">
+            <div class="card">
+                <span class="card-header font18 gold">MIDDLE EAST</span>
+                <ul class="ul-flights">
+                    <li class="cntry">Flights to <b>Istanbul</b></li>
+                    <li class="cntry">Flights to <b>Moscow</b></li>
+                    <li class="cntry">Flights to <b>Yerevan</b></li>
+                    <li class="cntry">Flights to <b>Dubai</b></li>
+                    <li><div class="c-underline gold"></div></li>
+                </ul>
+            </div>
+            <div class="card">
+                <span class="card-header font18">EUROPE</span>
+                <ul class="ul-flights">
+                    <li class="cntry">Flights to <b>Amsterdam</b></li>
+                    <li class="cntry">Flights to <b>Barcelona</b></li>
+                    <li class="cntry">Flights to <b>Brussels</b></li>
+                    <li class="cntry">Flights to <b>Paris</b></li>
+                    <li><div class="c-underline dark-blue"></div></li>
+                </ul>
+            </div>
+            <div class="card">
+                <span class="card-header font18 light-red">ASIA</span>
+                <ul class="ul-flights">
+                    <li class="cntry">Flights to <b>Shanghai</b></li>
+                    <li class="cntry">Flights to <b>Chengdu</b></li>
+                    <li class="cntry">Flights to <b>Bangkok</b></li>
+                    <li class="cntry">Flights to <b>Peking</b></li>
+                    <li><div class="c-underline light-red"></div></li>
+                </ul>
+            </div>
+        </div>
+        <div><button type="button" class="btn-primary bg-yelow">Show More</button></div>
+    </div>
+    <footer class="myfooter">
+        <div class="brand-name heading2 float-left"><b>BOOKNOW.BH</b></div>
+        <div class="float-left">
+            <ul class="font12 color-grey">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        <div class="float-left">
+            <ul class="font12 color-grey">
+                <li>Disclaimer</li>
+                <li>Cancellation & Refund</li>
+                <li>Terms & Condition</li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <ul class="font12 color-grey">
+                <li><img src="img/mcafee.png"/></li>
+                <li><img src="img/godaddy.png"/></li>
+            </ul>
+        </div>
+        <div class="float-right">
+                <img class="icons" src="img/icons.png"/>
+        </div>
+    </footer>
+        <div class="copyright font12 center">Booknow.bh 2017, all rights reserved</div>
+</body>
+</html>
