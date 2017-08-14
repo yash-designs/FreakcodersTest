@@ -193,7 +193,7 @@ html{
         background-color: #fafafa;
     }
     .row-img-cards{
-        background-color: white;
+        background-color: transparent;
       display: flex;
       justify-content:center;
       align-items:center;
@@ -428,9 +428,13 @@ html{
 .pay-icons{
     margin-left: 40px;
 }
-.row{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+.bg-strip{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        top: 50%;
+        height: 104px;
+        z-index: -1;
+        background-color: #ebf5fd;
 }
+//End of CSS
