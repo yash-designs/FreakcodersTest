@@ -389,6 +389,7 @@ html{
     color: #757575;
     margin-right: 8px;
     color: #212121;
+    opacity: 1;
     font-weight: bold;
 }
 .choose:focus{
@@ -404,17 +405,21 @@ html{
     color: #212121;
     margin-right: 16px;
     font-weight: bold;
-    appearance:none;
-    -moz-appearance:none; /* Firefox */
-    -webkit-appearance:none;
-    background-image: url('img/ic_date_range_black_24dp_1x.png') no-repeat right;
 }
 .icon-beng{
     background-image: url('img/ic_flight_land_black_24dp_1x.png');
     background-repeat: no-repeat;
-    background-position: right 4px;
+    background-position: right 4px center;
 }
-.icon-ongo{
+.icon-kolk{
+    background-image: url('img/ic_flight_land_black_24dp_1x.png');
+    background-repeat: no-repeat;
+    background-position: right 4px center;
+}
+.icon-ongo, .icon-back{
+    background-image: url('img/ic_date_range_black_24dp_1x.png');
+    background-repeat: no-repeat;
+    background-position: right 4px center;
     width: 92px;
 }
 .icon-back{
